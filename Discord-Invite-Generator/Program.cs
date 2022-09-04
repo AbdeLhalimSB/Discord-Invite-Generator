@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Net;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Linq;
+using DiscordWebhook;
 
 namespace Discord_Invite_Generator
 {
@@ -10,24 +8,24 @@ namespace Discord_Invite_Generator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            //for(int i = 0;i <100;i++)
-            //{
+            sendinvitetodiscord("Start");
+            Console.Write("Invites Count : ");
+            int count = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < count-1; i++)
+            {
                 string invite = invite_generator();
-            Console.WriteLine(invite);
-            Console.WriteLine(Invite_tester("aazFggr"));
-            System.Threading.Thread.Sleep(1000);
-            //}
-            //using (dWebHook dcWeb = new dWebHook())
-            //{
-            //    dcWeb.ProfilePicture = "https://ibb.co/LzTVk3t";
-            //    dcWeb.UserName = "Bot";
-            //    dcWeb.WebHook = "";
-            //    dcWeb.SendMessage("Test");
-            //}
-        }
+                Console.WriteLine("discord.gg/"+invite);
+                if (Invite_tester(invite) == true)
+                {
+                    sendinvitetodiscord(invite);
+                }
+                System.Threading.Thread.Sleep(1000);
+            }
 
-        public static string invite_generator()
+        }
+        
+
+    public static string invite_generator()
         {
             var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
             var stringChars = new char[7];
@@ -46,14 +44,12 @@ namespace Discord_Invite_Generator
         {
             try
             {
-                WebRequest request = WebRequest.Create("https://discordapp.com/api/invites/"+invite);
+                WebRequest request = WebRequest.Create("https://discordapp.com/api/invites/" + invite);
                 request.Method = "GET";
-
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
-                    Console.WriteLine("Invite link is valid");
+                    //Console.WriteLine("Invite link is valid");
                     return true;
                 }
             }
@@ -61,12 +57,26 @@ namespace Discord_Invite_Generator
             {
                 if (((HttpWebResponse)wex.Response).StatusCode == HttpStatusCode.NotFound)
                 {
-                    Console.WriteLine("Invite link is invalid");
+                    //Console.WriteLine("Invite link is invalid");
                     return false;
                 }
-                else throw wex;
+                else
+                {
+                    Console.WriteLine(wex.ToString().Substring(':','.'));
+                }
             }
             return false;
+        }
+
+        static void sendinvitetodiscord(string invite)
+        {
+            Webhook webhook = new Webhook("https://discord.com/api/webhooks/1016063201235980378/U5sMlLIRIu-DngUqgt54aiKN8u1XZRtWNHISZwKzSXcRYN9xAeT59yMRwBTo8OXQbm-_");
+            WebhookObject obj = new WebhookObject()
+            {
+                username = "AbdeLhalim",
+                content = "discord.gg/"+invite
+            };
+            webhook.PostData(obj);
         }
 
     }

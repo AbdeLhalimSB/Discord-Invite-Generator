@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sahba\\OneDrive\\Desktop\\Working Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj": {}
+    "C:\\Users\\sahba\\OneDrive\\Desktop\\Working_Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sahba\\OneDrive\\Desktop\\Working Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj": {
+    "C:\\Users\\sahba\\OneDrive\\Desktop\\Working_Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sahba\\OneDrive\\Desktop\\Working Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj",
+        "projectUniqueName": "C:\\Users\\sahba\\OneDrive\\Desktop\\Working_Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj",
         "projectName": "Discord-Invite-Generator",
-        "projectPath": "C:\\Users\\sahba\\OneDrive\\Desktop\\Working Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj",
+        "projectPath": "C:\\Users\\sahba\\OneDrive\\Desktop\\Working_Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\Discord-Invite-Generator.csproj",
         "packagesPath": "C:\\Users\\sahba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sahba\\OneDrive\\Desktop\\Working Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\obj\\",
+        "outputPath": "C:\\Users\\sahba\\OneDrive\\Desktop\\Working_Onit\\Discord-Invite-Generator\\Discord-Invite-Generator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DiscordWebhooks": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

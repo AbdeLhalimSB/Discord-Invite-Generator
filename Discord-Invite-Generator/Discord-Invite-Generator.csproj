@@ -6,4 +6,8 @@
     <RootNamespace>Discord_Invite_Generator</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DiscordWebhooks" Version="1.0.4" />
+  </ItemGroup>
+
 </Project>

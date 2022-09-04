@@ -12,3 +12,20 @@ C:\Users\sahba\OneDrive\Desktop\Working Onit\Discord-Invite-Generator\Discord-In
 C:\Users\sahba\OneDrive\Desktop\Working Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.dll
 C:\Users\sahba\OneDrive\Desktop\Working Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.pdb
 C:\Users\sahba\OneDrive\Desktop\Working Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.genruntimeconfig.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\Discord-Invite-Generator.exe
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\Discord-Invite-Generator.deps.json
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\Discord-Invite-Generator.runtimeconfig.json
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\Discord-Invite-Generator.runtimeconfig.dev.json
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\Discord-Invite-Generator.dll
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\Discord-Invite-Generator.pdb
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.csproj.AssemblyReference.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.AssemblyInfoInputs.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.AssemblyInfo.cs
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.csproj.CoreCompileInputs.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.dll
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.pdb
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.genruntimeconfig.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\DiscordWebhook.dll
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Discord-Invite-Generator\Discord-Invite-Generator\obj\Debug\netcoreapp3.1\Discord-Invite-Generator.csproj.CopyComplete
